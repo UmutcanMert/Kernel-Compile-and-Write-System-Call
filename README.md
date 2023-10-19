@@ -23,6 +23,9 @@ Linux ubuntu indirme linki:
   Adım 2:
 </h3>
 <p>
-  Sıra ubuntu içinde kernel indirmeye geldi. Bunun için öncelikle terminalde **uname -r** komutunu çalıştırıp kernel sürümünüzü öğrenin.
+  Sıra ubuntu içinde kernel indirmeye geldi. Bunun için öncelikle terminalde 
+  echo uname -r
+  python main.py
+  komutunu çalıştırıp kernel sürümünüzü öğrenin.
   
 </p>
