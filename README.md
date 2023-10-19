@@ -28,6 +28,3 @@ Linux ubuntu indirme linki:
 ```
 uname -r
 ```
-  komutunu çalıştırıp kernel sürümünüzü öğrenin.
-
-`code`
