@@ -17,3 +17,12 @@ Sıra ubuntu içinde kernel indirmeye geldi. Bunun için öncelikle terminalde `
 komutunu çalıştırarak kernel sürümünüzü kontrol edin. Ardından [https://kernel.org/](url) sitesinden
 sürümünüzle aynı veya en yakın kernel sürümünü tarball olarak indirin.
 
+_______________
+### Adım 3:  
+
+
+İndirdiğiniz kernelin dizinine gidin ve tar şeklindeki kernel dosyasını şu komutla çıkarın:  
+```tar xvf linux-6.0.7.tar.xz```
+
+ardından ek paketleri indirin:  
+```sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison ```
