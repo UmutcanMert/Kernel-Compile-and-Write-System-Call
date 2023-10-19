@@ -22,7 +22,9 @@ _______________
 
 
 İndirdiğiniz kernelin dizinine gidin ve tar şeklindeki kernel dosyasını şu komutla çıkarın:  
-```tar xvf linux-6.0.7.tar.xz```
+```tar xvf linux-6.0.7.tar.xz```   
+##### (burada 6.0.7 yerine sizin indirdiğiniz versiyon olacak)  
+
 
 ardından ek paketleri indirin:  
 ```sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison ```
