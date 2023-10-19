@@ -24,7 +24,9 @@ Linux ubuntu indirme linki:
 </h3>
 <p>
   Sıra ubuntu içinde kernel indirmeye geldi. Bunun için öncelikle terminalde
-  <p style="background-color:#45474B"> 'uname -r' </p> 
+  ```
+  uname -r
+  ```
   komutunu çalıştırıp kernel sürümünüzü öğrenin.
 </p>
 `code`
