@@ -3,7 +3,6 @@
 ### Adım 1:
 İlk adım olarak eğer bilgisarınızda linux kurulu değilse virtual box veya vmware indirip ardından sanal makine için bir linux sürümü indirmelisiniz.(Burada ubuntu için anlatacağım)  
 Virtual box indirme linki:  
-<br>
 [https://www.virtualbox.org/wiki/Downloads](url)  
 <br>  
 Linux ubuntu indirme linki:  
