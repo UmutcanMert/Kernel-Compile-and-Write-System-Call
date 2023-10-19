@@ -12,9 +12,19 @@ _______________
 ### Adım 2:  
 
 
-Sıra ubuntu içinde kernel indirmeye geldi. Bunun için öncelikle terminalde ``` uname -r ```
-komutunu çalıştırarak kernel sürümünüzü kontrol edin. Ardından [https://kernel.org/](url) sitesinden
-sürümünüzle aynı veya en yakın kernel sürümünü tarball olarak indirin.
+Sıra ubuntu içinde kernel indirmeye geldi.
+<br>  
+Bunun için öncelikle terminalde
+<br>
+``` uname -r ```
+<br>
+komutunu çalıştırarak kernel sürümünüzü kontrol edin.
+<br>
+Ardından:
+<br>
+[https://kernel.org/](url)
+<br>
+sitesinden sürümünüzle aynı veya en yakın kernel sürümünü tarball olarak indirin.
 
 _______________
 ### Adım 3:  
