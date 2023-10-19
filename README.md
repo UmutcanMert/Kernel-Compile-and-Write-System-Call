@@ -22,8 +22,8 @@ _______________
 
 
 İndirdiğiniz kernelin dizinine gidin ve tar şeklindeki kernel dosyasını şu komutla çıkarın:  
-```tar xvf linux-6.0.7.tar.xz```   
-##### (burada 6.0.7 yerine sizin indirdiğiniz versiyon olacak)  
+```tar xvf linux-6.0.7.tar.xz``` 
+**(burada 6.0.7 yerine sizin indirdiğiniz versiyon olacak)**  
 
 
 ardından ek paketleri indirin:  
