@@ -19,3 +19,10 @@ Linux ubuntu indirme linki:
   </b>
   
 </p>  
+<h3>
+  Adım 2:
+</h3>
+<p>
+  Sıra ubuntu içinde kernel indirmeye geldi. Bunun için öncelikle terminalde **uname -r** komutunu çalıştırıp kernel sürümünüzü öğrenin.
+  
+</p>
