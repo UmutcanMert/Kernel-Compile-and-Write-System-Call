@@ -35,8 +35,9 @@ _______________
 
 
 Tardan çıkardığınız kernel dosyasına girin:    
-``` cd linux-Version ```  
-şeklinde. 
+<br>
+``` cd linux-Version ``` şeklinde 
+<br>
 <br>
 Ardından sizin mevcut kerneldaki config dosyasınızı tardan çıkardığınız kernel dosyasına kopyalamanız gerekiyor. Bunun içinde:
 <br>
