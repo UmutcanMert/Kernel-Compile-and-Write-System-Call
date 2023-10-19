@@ -58,4 +58,14 @@ komutunu giriniz.
 **Bu kısımda ubuntu kullanıyorsanız bu komut geçerli. Başka bir linux sisteminde komut değişir.**
 
 
+_______________
+### Adım 5:  
+_______________
+### Adım 6:  
+_______________
+### Adım 7:  
+_______________
+### Adım 8:  
+
+
 
