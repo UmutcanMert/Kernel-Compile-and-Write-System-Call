@@ -9,6 +9,7 @@ Virtual box indirme linki:
 Linux ubuntu indirme linki:  
 [https://ubuntu.com/download/desktop](url)  
 <br>
+__________________________
 Adım 2:
 <br>
 Sıra ubuntu içinde kernel indirmeye geldi. Bunun için öncelikle terminalde `uname -r ` komutunu çalıştırarak kernel sürümünüzü kontrol edin. Ardından [https://kernel.org/](url) sitesinden
