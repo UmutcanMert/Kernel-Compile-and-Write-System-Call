@@ -1,4 +1,4 @@
-#### Kernel Compile and Write System Call   
+## Kernel Compile and Write System Call   
 _____________________
 <h3>
   Adım 1:
