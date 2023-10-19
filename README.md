@@ -12,5 +12,5 @@ Linux ubuntu indirme linki:
 Adım 2:
 <br>
 Sıra ubuntu içinde kernel indirmeye geldi. Bunun için öncelikle terminalde:
-```uname -r ```
+`uname -r `
 
