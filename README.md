@@ -1,5 +1,8 @@
 ####  <border>Kernel Compile and Write System Call </border>  
 _____________________
+<h3>
+  Adım 1:
+</h3>
 <p>
   İlk adım olarak eğer bilgisarınızda linux kurulu değilse virtual box veya vmware indirip ardından sanal makine için bir linux sürümü indirmelisiniz.(Burada ubuntu için anlatacağım)  
 </p> 
