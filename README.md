@@ -14,10 +14,9 @@ Virtual box indirme linki:
 </p>
 <p>
 Linux ubuntu indirme linki:  
-  <b>
+   <b>
     [https://ubuntu.com/download/desktop](url)  
   </b>
-  
 </p>  
 <h3>
   Adım 2:
@@ -25,6 +24,4 @@ Linux ubuntu indirme linki:
 <p>
   Sıra ubuntu içinde kernel indirmeye geldi. Bunun için öncelikle terminalde
 </p>  
-```
-uname -r
-```
+```uname -r ```
