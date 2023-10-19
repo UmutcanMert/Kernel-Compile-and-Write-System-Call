@@ -24,7 +24,7 @@ Linux ubuntu indirme linki:
 </h3>
 <p>
   Sıra ubuntu içinde kernel indirmeye geldi. Bunun için öncelikle terminalde
-Inline `code` has `back-ticks around` it.
+
   komutunu çalıştırıp kernel sürümünüzü öğrenin.
   
 </p>
