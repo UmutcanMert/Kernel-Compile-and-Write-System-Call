@@ -27,4 +27,4 @@ Linux ubuntu indirme linki:
   
   komutunu çalıştırıp kernel sürümünüzü öğrenin.
 </p>
-'uname -r'
+`code`
