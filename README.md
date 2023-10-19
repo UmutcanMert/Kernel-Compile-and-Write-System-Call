@@ -40,7 +40,7 @@ Tardan çıkardığınız kernel dosyasına girin:
 Ardından sizin mevcut kerneldaki config dosyasınızı tardan çıkardığınız kernel dosyasına kopyalamanız gerekiyor. Bunun içinde:
 ```cp -v /boot/config-$(uname -r) .config```  
 komutunu giriniz.  
-""Bu kısımda ubuntu kullanıyorsanız bu komut geçerli. Başka bir linux sisteminde komut değişir.
+**Bu kısımda ubuntu kullanıyorsanız bu komut geçerli. Başka bir linux sisteminde komut değişir.**
 
 
 
