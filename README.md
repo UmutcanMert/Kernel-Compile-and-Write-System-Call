@@ -25,7 +25,7 @@ komutunu çalıştırarak kernel sürümünüzü kontrol edin.
 <br>
 Ardından:
 <br>
-[https://kernel.org/](url)
+<a href="https://kernel.org/" target="_blank">Kernel install</a>  
 <br>
 sitesinden sürümünüzle aynı veya en yakın kernel sürümünü tarball olarak indirin.
 
