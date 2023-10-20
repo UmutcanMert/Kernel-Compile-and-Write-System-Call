@@ -1,7 +1,7 @@
 ## Kernel Compile and Write System Call   
 
 ### Adım 1:
-İlk adım olarak eğer bilgisarınızda linux kurulu değilse virtual box veya vmware indirip ardından sanal makine için bir linux sürümü indirmelisiniz.(Burada ubuntu için anlatacağım)  
+İlk adım olarak eğer bilgisarınızda linux kurulu değilse virtual box veya vmware indirip ardından sanal makine için bir linux sürümü indirmelisiniz.  
 Virtual box indirme linki:  
 <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">VirtualBox</a>  
 <br>
@@ -159,11 +159,60 @@ chmod u+x deploy.sh
 komutlarını çalıştırın. En son çalıştırdığınız komut ile birlikte kernel compile olmaya başladı. Eğer bir hata almadan kernel compile edilirse başarıyla eklendi. En son sistemi yeniden başlatıp GRUB menüden oluşturduğunuz kernel sürümüne tıklayın.  
 <br>
 
-**reboot** et ve sonra ubuntu açılırken **ESC** tuşuna bas ya basılı tut. Ardından advanced options kısmından kendi kernelını seçebilirsin.TEBRİKLER :)) 
+**reboot** et ve sonra ubuntu açılırken **ESC** tuşuna bas ya basılı tut. Ardından advanced options kısmından kendi kernelını seçebilirsin.
 
 
+________________
+### Adım 9:  
+Gelelim son adıma yani system callumuzu test etmeye. Bakalım doğru yazmışmıyız. Öncelikle GRUB menüden seçtiğiniz kernelda bir testprogram.c adında dosya oluşturun:
+```
+touch testprogram.c 
+```
 
+ardından bu dosyaya girerek şunları yazın:(Tabi burada kendi system callunuza göre kodu düzenlemeniz gerekiyor, system call no - syscall call name gibi)
+```
+/**
+ * Test the stephen syscall (#3..)
+ */
+#define _GNU_SOURCE
+#include <unistd.h>
+#include <sys/syscall.h>
+#include <stdio.h>
+#include <errno.h>
 
+/*
+ * Put your syscall number here.
+ */
+#define SYS_kendiisminiz 335 /*syscall table daki no ile ayni olmali*/
+
+int main(int argc, char **argv)
+{
+  if (argc <= 1) {
+    printf("Must provide a string to give to system call.\n");
+    return -1;
+  }
+  char *arg = argv[1];
+  printf("Making system call with \"%.50s\".\n", arg);
+  long res = syscall(SYS_kendiisminiz, arg); /*yani syscall(335,arg)*/
+
+  if (res == -1)
+    fprintf(stderr, "kendiisminiz failed, errno = %d\n", errno);
+  else
+    printf("System call kendiisminiz returned %ld.\n", res);
+  return res;
+}
+```
+
+Bunu da yaptıktan sonra kaydedip çıkın ve kodu derleyin:
+```
+gcc -o testprogram.c testprogram
+```
+<br>
+ardından:
+```
+./testprogram 'helloworld!'
+```
+komutunu çalıştırın.
 
 
 
