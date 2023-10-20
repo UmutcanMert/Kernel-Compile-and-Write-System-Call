@@ -158,6 +158,7 @@ chmod u+x deploy.sh
 <br>
 komutlarını çalıştırın. En son çalıştırdığınız komut ile birlikte kernel compile olmaya başladı. Eğer bir hata almadan kernel compile edilirse başarıyla eklendi. En son sistemi yeniden başlatıp GRUB menüden oluşturduğunuz kernel sürümüne tıklayın.  
 <br>
+
 **reboot** et ve sonra ubuntu açılırken **ESC** tuşuna bas ya basılı tut. Ardından advanced options kısmından kendi kernelını seçebilirsin.TEBRİKLER :)) 
 
 
