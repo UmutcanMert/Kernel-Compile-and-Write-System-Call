@@ -64,7 +64,6 @@ Ardından sizin mevcut kerneldaki config dosyasınızı tardan çıkardığını
 cp -v /boot/config-$(uname -r) .config
 ```
 <br>
-<br>
 komutunu giriniz.  
 
 **Bu kısımda ubuntu kullanıyorsanız bu komut geçerli. Başka bir linux sisteminde komut değişir.**
