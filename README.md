@@ -146,8 +146,8 @@ KERNEL COMPİLE VE İNSTALL
 <br>
 ```    linux-VERSION$    ```
 <br>
-<a href="https://github.com/UmutcanMert/Kernel-Compile-and-Write-System-Call/blob/master/deploy.sh" target="_blank">deploy.sh</a>  
-bir deploy.sh dosyası oluşturun ve dosyaya şunları yazın:
+<a href="https://github.com/UmutcanMert/Kernel-Compile-and-Write-System-Call/blob/master/deploy.sh" target="_blank">deploy.sh</a> dosyasındaki komutları aynen yazınız ve kaydedip çıkınız.
+
 
 
 
