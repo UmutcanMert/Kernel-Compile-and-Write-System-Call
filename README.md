@@ -143,7 +143,10 @@ _______________
 ### Adım 9:
 KERNEL COMPİLE VE İNSTALL
 Öncelikle indirilen kernel dosyasının başlangıç dizinine geliniz. Yani şöyle bir dizinde olduğunuzdan emin olduktan sonra:
+<br>
 ```    linux-VERSION$    ```
+<br>
+<link rel="" href="deploy.sh">
 bir deploy.sh dosyası oluşturun ve dosyaya şunları yazın:
 
 
