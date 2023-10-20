@@ -60,6 +60,15 @@ komutunu giriniz.
 
 _______________
 ### Adım 5:  
+
+Oluşturulan config dosyasına girerek **CONFIG_LOCALVERSION=""** kısmını editlemeniz gerekir. Bunun için terminalden:
+<br>
+```nano .config``` 
+<br>
+komutu çalıştırarak girebilirsiniz. Ardından eğer editleyeceğiniz kısmı göremediyseniz **Control + W** ile search edip bulabilirsiniz.
+(büyük küçük harf ve türkçe harf kullanımına dikkat ediniz)
+<br>
+**CONFIG_LOCALVERSION="-kendiisminiz"** şeklinde değiştirin.
 _______________
 ### Adım 6:  
 _______________
