@@ -103,7 +103,7 @@ nano arch/x86/entry/syscalls/syscall_64.tbl
 ```
 
 Bu dosya system call ekleyeceğimiz dosyadır. O yüzden bu dosyada 300lü system callların sonuna bir sonraki numara ile kendi system callunuzu
-ekleyin. Sıradaki numara 335 ise:  
+ekleyin. Sıradaki numara 335 ise:<p> <mark>(Aralarda tab kadar boşluk vardır) </mark></p>  
 ```
 335  common  kendiisminiz      sys_kendiisminiz
 ```
