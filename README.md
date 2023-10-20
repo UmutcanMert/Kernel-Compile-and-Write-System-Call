@@ -249,7 +249,16 @@ ardından:
 
 
 komutunu çalıştırın.Eğer resimdeki gibi çıktıya benzer bir output ile karşılaştıysan tebrik ederim. Çünkü bir kernel derleyip system call ekledin ve başarıyla sonuçlandırdın.:)))  
-<img src="testprogram.png" witdh="300" height="300" align="center">
+<table>
+    <tr>
+      <td>
+          <img src="testprogram.png" witdh="300" height="300">        
+      </td>
+      <td>
+          <img src="GRUBmenu.png" witdh="300" height="300">
+      </td>
+    </tr>
+</table>
 
 
 
