@@ -95,6 +95,14 @@ komutu çalıştırarak girebilirsiniz. Ardından eğer editleyeceğiniz kısmı
 **CONFIG_LOCALVERSION="-kendiisminiz"** şeklinde değiştirin.
 _______________
 ### Adım 7:  
+
+
+İndirilen kernel dosyasında şu dizine gelin:
+```
+nano arch/x86/entry/syscalls/syscall_64.tbl
+```
+
+
 _______________
 ### Adım 8:  
 
