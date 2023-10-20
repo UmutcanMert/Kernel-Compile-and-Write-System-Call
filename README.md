@@ -146,7 +146,7 @@ KERNEL COMPİLE VE İNSTALL
 <br>
 ```    linux-VERSION$    ```
 <br>
-<link rel="" href="deploy.sh">
+<a href="deploy.sh" target="_blank"></a>
 bir deploy.sh dosyası oluşturun ve dosyaya şunları yazın:
 
 
