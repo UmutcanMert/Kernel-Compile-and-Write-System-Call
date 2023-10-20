@@ -61,6 +61,14 @@ komutunu giriniz.
 _______________
 ### Adım 5:  
 
+
+Sonrasında şu komutu çalıştırın:
+<br>
+```   yes "" | make oldconfig      ```
+_______________
+### Adım 6:  
+
+
 Oluşturulan config dosyasına girerek **CONFIG_LOCALVERSION=""** kısmını editlemeniz gerekir. Bunun için terminalden:
 <br>
 ```nano .config``` 
@@ -69,8 +77,6 @@ komutu çalıştırarak girebilirsiniz. Ardından eğer editleyeceğiniz kısmı
 (büyük küçük harf ve türkçe harf kullanımına dikkat ediniz)
 <br>
 **CONFIG_LOCALVERSION="-kendiisminiz"** şeklinde değiştirin.
-_______________
-### Adım 6:  
 _______________
 ### Adım 7:  
 _______________
