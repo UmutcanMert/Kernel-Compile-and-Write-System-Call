@@ -255,7 +255,7 @@ komutunu çalıştırın.Eğer resimdeki gibi çıktıya benzer bir output ile k
           <img src="testprogram.png" witdh="300" height="300">        
       </td>
       <td>
-          <img src="GRUBmenu.png" witdh="300" height="300">
+          <img src="GRUBfoto.png" witdh="300" height="300">
       </td>
     </tr>
 </table>
