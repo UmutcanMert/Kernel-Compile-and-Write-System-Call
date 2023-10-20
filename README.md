@@ -146,7 +146,7 @@ KERNEL COMPİLE VE İNSTALL
 <br>
 ```    linux-VERSION$    ```
 <br>
-<img src="deploy.sh" alt="Mountain">
+<link src="deploy.sh" alt="deploy.sh">
 bir deploy.sh dosyası oluşturun ve dosyaya şunları yazın:
 
 
