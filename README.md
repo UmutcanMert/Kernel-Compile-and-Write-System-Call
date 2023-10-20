@@ -1,7 +1,7 @@
 ## Kernel Compile and Write System Call   
 
 ### Adım 1:
-İlk adım olarak eğer bilgisarınızda linux kurulu değilse virtual box veya vmware indirip ardından sanal makine için bir linux sürümü indirmelisiniz.  
+İlk adım olarak eğer bilgisayarınızda linux kurulu değilse virtual box veya vmware indirip ardından sanal makine için bir linux sürümü indirmelisiniz.  
 Virtual box indirme linki:  
 <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">VirtualBox</a>  
 <br>
