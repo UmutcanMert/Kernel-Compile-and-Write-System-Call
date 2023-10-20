@@ -146,7 +146,22 @@ KERNEL COMPİLE VE İNSTALL
 <br>
 ```    linux-VERSION$    ```
 <br>
-<a href="https://github.com/UmutcanMert/Kernel-Compile-and-Write-System-Call/blob/master/deploy.sh" target="_blank">deploy.sh</a> dosyasındaki komutları aynen yazınız ve kaydedip çıkınız.
+<a href="https://github.com/UmutcanMert/Kernel-Compile-and-Write-System-Call/blob/master/deploy.sh" target="_blank">deploy.sh</a> dosyasındaki komutları aynen yazınız ve kaydedip çıkınız.Ve bu dosyayı terminalde çalıştırmak için:
+```
+chmod u+x deploy.sh
+```
+
+```
+./deploy.sh
+```
+
+<br>
+komutlarını çalıştırın. En son çalıştırdığınız komut ile birlikte kernel compile olmaya başladı. Eğer bir hata almadan kernel compile edilirse başarıyla eklendi. En son sistemi yeniden başlatıp GRUB menüden oluşturduğunuz kernel sürümüne tıklayın.  
+<br>
+**reboot** et ve sonra ubuntu açılırken **ESC** tuşuna bas ya basılı tut. Ardından advanced options kısmından kendi kernelını seçebilirsin.TEBRİKLER :)) 
+
+
+
 
 
 
