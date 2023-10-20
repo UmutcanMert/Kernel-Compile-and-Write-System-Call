@@ -121,6 +121,18 @@ Eğer sisteminiz 64 bit ise tablonun en sonuna da yazabilirsiniz system callu. T
 
 _______________
 ### Adım 8:  
+Bu adımda kernel dosyasında kernel/sys.c dosyasını açarak en sonuna şu kodu eklemelisiniz: (Kendi system callunuza göre kodu düzeltin)
+```
+SYSCALL_DEFINE1(kendiisminiz, char *, msg)
+{
+  char buf[256];
+  long copied = strncpy_from_user(buf, msg, sizeof(buf));
+  if (copied < 0 || copied == sizeof(buf))
+    return -EFAULT;
+  printk(KERN_INFO "kendiisminiz syscall called with \"%.256s\"\n", buf);
+  return 0;
+}
+```
 
 
 
