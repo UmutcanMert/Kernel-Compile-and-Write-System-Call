@@ -135,5 +135,14 @@ SYSCALL_DEFINE1(kendiisminiz, char *, msg)
 }
 ```
 
+**Bu fonksiyonun herhangi bir if vb macro bloğunun içinde olmamasına dikkat edin.**
+
+
+
+_______________
+### Adım 9:
+
+
+
 
 
