@@ -243,3 +243,20 @@ komutunu çalıştırın.Eğer resimdeki gibi çıktıya benzer bir output ile k
 
 
 
+________________
+### ÖNEMLİ NOT
+### KARŞILAŞILABİLECEK MUHTEMEL HATALAR ile ilgili:    
+Burada belli başlı hatalarla ilgili kaynaklar vardır. Burada olmayan herhangi bir hata ile karşılaşırsanız direk hatayı yazıp araştırın.
+
+--> Compiling kernel gives error No rule to make target 'debian/certs/debian-uefi-certs.pem':  
+<a href="https://stackoverflow.com/questions/67670169/compiling-kernel-gives-error-no-rule-to-make-target-debian-certs-debian-uefi-ce" target="_blank" >https://stackoverflow.com/questions/67670169/compiling-kernel-gives-error-no-rule-to-make-target-debian-certs-debian-uefi-ce</a>  
+
+--> SOLVED-Kernel Compile Error - frame size  
+<a href="https://forums.debian.net/viewtopic.php?t=65980" target="_blank" >https://forums.debian.net/viewtopic.php?t=65980</a>  
+
+--> SOLVED-Kernel Compile Error - frame size  
+<a href="https://forums.debian.net/viewtopic.php?t=65980" target="_blank" >https://forums.debian.net/viewtopic.php?t=65980</a>
+
+--> Fix You must put some ‘deb-src’ URIs in your sources.list Error
+<a href="https://www.tecmint.com/fix-deb-src-uris-in-your-sources-list-error/" target="_blank" >https://www.tecmint.com/fix-deb-src-uris-in-your-sources-list-error/</a>
+
