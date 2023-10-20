@@ -212,6 +212,8 @@ ardından:
 ```
 ./testprogram 'helloworld!'
 ```
+
+
 komutunu çalıştırın.
 
 
