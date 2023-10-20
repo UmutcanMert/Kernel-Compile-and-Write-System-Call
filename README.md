@@ -208,7 +208,8 @@ Bunu da yaptıktan sonra kaydedip çıkın ve kodu derleyin:
 gcc -o testprogram.c testprogram
 ```
 <br>
-ardından:
+ardından:  
+
 ```
 ./testprogram 'helloworld!'
 ```
