@@ -99,6 +99,23 @@ komutu çalıştırarak girebilirsiniz. Ardından eğer editleyeceğiniz kısmı
 <br>
 
 **CONFIG_LOCALVERSION="-kendiisminiz"** şeklinde değiştirin.
+
+Ardından compile aşamasında sertifikalarla ilgili hata alma riskine karşı compile etmeden önce aynı dosya da  
+**CONFIG_SYSTEM_TRUSTED_KEYS=""**
+**CONFIG_SYSTEM_REVOCATION_KEYS=""** kısımlarını içi boş olacak şekilde düzenleyin. Bunu ister manuel olarak yapabilir;  
+bunun için nano .config ile girip control + W ile bunları aratıp benzer şekilde düzenleyin ya da;  
+```
+scripts/config --disable SYSTEM_TRUSTED_KEYS
+```
+
+
+```
+scripts/config --disable SYSTEM_REVOCATION_KEYS
+```  
+
+şeklinde terminal üzerinden disable edebilirsiniz.(Manuel olarak yapmanızı öneririm. Bazen disable etmenize rağmen hata veriyorlar.)  
+
+
 _______________
 ### Adım 7:  
 
