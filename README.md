@@ -4,7 +4,8 @@
 İlk adım olarak eğer bilgisarınızda linux kurulu değilse virtual box veya vmware indirip ardından sanal makine için bir linux sürümü indirmelisiniz.(Burada ubuntu için anlatacağım)  
 Virtual box indirme linki:  
 <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">VirtualBox</a>  
-<br>  
+<br>
+
 Linux ubuntu indirme linki:  
 <a href="https://ubuntu.com/download/desktop" target="_blank">Ubuntu</a>  
 <br>
