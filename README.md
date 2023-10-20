@@ -264,9 +264,6 @@ Burada belli başlı hatalarla ilgili kaynaklar vardır. Burada olmayan herhangi
 --> SOLVED-Kernel Compile Error - frame size  
 <a href="https://forums.debian.net/viewtopic.php?t=65980" target="_blank" >https://forums.debian.net/viewtopic.php?t=65980</a>  
 
---> SOLVED-Kernel Compile Error - frame size  
-<a href="https://forums.debian.net/viewtopic.php?t=65980" target="_blank" >https://forums.debian.net/viewtopic.php?t=65980</a>
-
 --> Fix You must put some ‘deb-src’ URIs in your sources.list Error  
 <a href="https://www.tecmint.com/fix-deb-src-uris-in-your-sources-list-error/" target="_blank" >https://www.tecmint.com/fix-deb-src-uris-in-your-sources-list-error/</a>
 
