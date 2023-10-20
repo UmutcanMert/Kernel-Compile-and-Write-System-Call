@@ -16,7 +16,7 @@ Sıra ubuntu içinde kernel indirmeye geldi.
 <br>  
 Bunun için öncelikle terminalde
 <br>
-``` uname -r ```
+            ```      uname -r      ```
 <br>
 komutunu çalıştırarak kernel sürümünüzü kontrol edin.
 <br>
