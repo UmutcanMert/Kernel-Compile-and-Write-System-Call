@@ -196,7 +196,7 @@ komutlarını çalıştırın. En son çalıştırdığınız komut ile birlikte
 
 
 ________________
-### Adım 9:  
+### Adım 10:  
 Gelelim son adıma yani system callumuzu test etmeye. Bakalım doğru yazmışmıyız. Öncelikle GRUB menüden seçtiğiniz kernelda bir testprogram.c adında dosya oluşturun:
 ```
 touch testprogram.c 
