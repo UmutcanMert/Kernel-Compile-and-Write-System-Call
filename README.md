@@ -60,10 +60,11 @@ Ardından sizin mevcut kerneldaki config dosyasınızı tardan çıkardığını
 <br>
 ```
 cp -v /boot/config-$(uname -r) .config
-```  
+```
 <br>
 <br>
 komutunu giriniz.  
+
 **Bu kısımda ubuntu kullanıyorsanız bu komut geçerli. Başka bir linux sisteminde komut değişir.**
 
 
@@ -84,11 +85,12 @@ Oluşturulan config dosyasına girerek **CONFIG_LOCALVERSION=""** kısmını edi
 <br>
 ```
 nano .config
-``` 
+```
 <br>
 komutu çalıştırarak girebilirsiniz. Ardından eğer editleyeceğiniz kısmı göremediyseniz **Control + W** ile search edip bulabilirsiniz.
 (büyük küçük harf ve türkçe harf kullanımına dikkat ediniz)
 <br>
+
 **CONFIG_LOCALVERSION="-kendiisminiz"** şeklinde değiştirin.
 _______________
 ### Adım 7:  
