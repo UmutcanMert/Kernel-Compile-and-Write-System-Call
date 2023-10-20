@@ -216,7 +216,7 @@ ardından:
 
 
 komutunu çalıştırın.Eğer resimdeki gibi çıktıya benzer bir output ile karşılaştıysan tebrik ederim. Çünkü bir kernel derleyip system call ekledin ve başarıyla sonuçlandırdın.:)))
-<img src="testprogram.png">
+<img src="testprogram.png" witdh="200" height="200">
 
 
 
