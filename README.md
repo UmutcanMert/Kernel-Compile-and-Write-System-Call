@@ -97,12 +97,16 @@ _______________
 ### Adım 7:  
 
 
-İndirilen kernel dosyasında şu dizine gelin:
+İndirilen kernel dosyasında şu dosyayı açın:
 ```
 nano arch/x86/entry/syscalls/syscall_64.tbl
 ```
 
-
+Bu dosya system call ekleyeceğimiz dosyadır. O yüzden bu dosyada 300lü system callların sonuna bir sonraki numara ile kendi system callunuzu
+ekleyin. Sıradaki numara 335 ise:  
+**335  common  kendiisminiz      sys_kendiisminiz**  
+<br>
+Eğer sisteminiz 64 bit ise tablonun en sonuna da yazabilirsiniz system callu. Tabi o zaman 335 numarası değişecek.
 _______________
 ### Adım 8:  
 
