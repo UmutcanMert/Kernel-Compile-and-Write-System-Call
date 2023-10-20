@@ -58,7 +58,7 @@ cd linux-Version
 <br>
 Ardından sizin mevcut kerneldaki config dosyasınızı tardan çıkardığınız kernel dosyasına kopyalamanız gerekiyor. Bunun içinde:
 <br>
-```  
+```
 cp -v /boot/config-$(uname -r) .config
 ```  
 <br>
