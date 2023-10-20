@@ -9,6 +9,11 @@ Virtual box indirme linki:
 Linux ubuntu indirme linki:  
 <a href="https://ubuntu.com/download/desktop" target="_blank">Ubuntu</a>  
 <br>
+#### NOT
+**Ubuntu için virtual boxta kurarken en az 60 gb yer ayırmanızı öneririm kernel derlenirken düşük bellek hatası almamak için. Ayrıca settings kısmından ram kısmına mümkün olduğunca yüksek değer vermeye çalışın yeşil kısmında kalmak şartıyla, sınır değeri vermeyin ve çekirdek kısmında da ne kadar çok verirseniz o kadar hızlı derlenir yine yeşil kısımda kalmak şartıyla tabi.**  
+
+
+
 _______________
 ### Adım 2:  
 
