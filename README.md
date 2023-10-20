@@ -51,7 +51,7 @@ sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-de
 ```  
 **bu compile derlenirken minimum hata almanıza yardımcı olacak**
 
-**compile derlemeye başlamadan önce şu komutları da çalıştırarak hata riskini mimimuma indirin:
+**compile derlemeye başlamadan önce şu komutları da çalıştırarak hata riskini mimimuma indirin:**
 ```
 sudo update 
 ```
