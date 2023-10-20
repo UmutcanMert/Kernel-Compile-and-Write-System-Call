@@ -36,7 +36,7 @@ kısmından sürümünüzle aynı veya en yakın kernel sürümünü tarball ola
 
 _______________
 ### Adım 3:  
-
+#### Bu adımdan sonraki her adımı root kullanıcı olarak gerçekleştirin. Aksi halde hata alabilirsiniz. 
 
 İndirdiğiniz kernelin dizinine gidin ve tar şeklindeki kernel dosyasını şu komutla çıkarın:  
 ```
@@ -50,6 +50,16 @@ ardından ek paketleri indirin:
 sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison
 ```  
 **bu compile derlenirken minimum hata almanıza yardımcı olacak**
+
+**compile derlemeye başlamadan önce şu komutları da çalıştırarak hata riskini mimimuma indirin:
+```
+sudo update 
+```
+
+```
+sudo upgrade 
+```
+
 
 _______________
 ### Adım 4:  
@@ -257,6 +267,6 @@ Burada belli başlı hatalarla ilgili kaynaklar vardır. Burada olmayan herhangi
 --> SOLVED-Kernel Compile Error - frame size  
 <a href="https://forums.debian.net/viewtopic.php?t=65980" target="_blank" >https://forums.debian.net/viewtopic.php?t=65980</a>
 
---> Fix You must put some ‘deb-src’ URIs in your sources.list Error
+--> Fix You must put some ‘deb-src’ URIs in your sources.list Error  
 <a href="https://www.tecmint.com/fix-deb-src-uris-in-your-sources-list-error/" target="_blank" >https://www.tecmint.com/fix-deb-src-uris-in-your-sources-list-error/</a>
 
