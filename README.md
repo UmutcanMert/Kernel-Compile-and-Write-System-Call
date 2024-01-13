@@ -1,5 +1,9 @@
 ## Kernel Compile and Write System Call   
-
+GRUP:
+<a href="https://github.com/UmutcanMert">Umutcan Mert</a>
+<a href="https://github.com/Nihat-AYDIN">Nihat Aydın</a>
+<a href="https://github.com/hamza37yavuz">Muhammet Hamza Yavuz</a>
+<a href="https://github.com/s192275">Serhat Kılıç</a>
 ### Adım 1:
 İlk adım olarak eğer bilgisayarınızda linux kurulu değilse virtual box veya vmware indirip ardından sanal makine için bir linux sürümü indirmelisiniz.  
 Virtual box indirme linki:  
